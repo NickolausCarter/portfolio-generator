@@ -11,6 +11,7 @@ const generateAbout = aboutText => {
   </section>
   `;
 };
+
 const generateProjects = projectsArr => {
   return `
     <section class="my-3" id="portfolio">
@@ -91,5 +92,3 @@ module.exports = templateData => {
   </html>
   `;
 };
-
-// module.exports = generatePage;
